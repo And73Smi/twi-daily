@@ -35,6 +35,7 @@ jobs:
             python3 twitch.py dtpylias > ../../streams/DTP.m3u8
             python3 twitch.py diontvkmakedonias > ../../streams/DionTvKentrikisMakedonias.m3u8
             python3 twitch.py extacy_tv > ../../streams/extacytv.m3u8
+            python3 twitch.py extacy_tv_cyprus > ../../streams/extacytvcyprus.m3u8
             python3 dailymotion.py x2j7kha > ../../streams/Euronews_Greece.m3u8
             python3 twitch.py eurotvgr > ../../streams/EuroTV.m3u8
             python3 twitch.py hotbeatstv > ../../streams/hotbeatstv.m3u8
