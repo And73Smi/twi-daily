@@ -25,41 +25,41 @@ jobs:
         run: |
             pwd
             cd ./core/platforms/
-            python3 twitch.py 34100tv > ../../streams/34100tv.m3u8
+            python3 twitch.py 34100tv > ../../streams/34100_tv.m3u8
             python3 twitch.py astratv2021 > ../../streams/Astra_TV.m3u8
             python3 twitch.py astratv2019 > ../../streams/Astra_TV_2.m3u8
             python3 twitch.py astratv2021 > ../../streams/Astra_TV.m3u8
-            python3 twitch.py alithiavideo > ../../streams/alithiatv.m3u8
-            python3 twitch.py centertv > ../../streams/centertv.m3u8
-            python3 twitch.py diabatatv > ../../streams/diabatatv.m3u8
+            python3 twitch.py alithiavideo > ../../streams/Alithia_tv.m3u8
+            python3 twitch.py centertv > ../../streams/Center_tv.m3u8
+            python3 twitch.py diabatatv > ../../streams/Diabata_tv.m3u8
             python3 twitch.py dtpylias > ../../streams/DTP.m3u8
-            python3 twitch.py diontvkmakedonias > ../../streams/DionTv.m3u8
-            python3 twitch.py extacy_tv > ../../streams/extacytv.m3u8
-            python3 twitch.py extacy_tv_cyprus > ../../streams/extacytvcyprus.m3u8
+            python3 twitch.py diontvkmakedonias > ../../streams/Dion_Tv.m3u8
+            python3 twitch.py extacy_tv > ../../streams/Extacy_tv.m3u8
+            python3 twitch.py extacy_tv_cyprus > ../../streams/extacy_tv_cyprus.m3u8
             python3 dailymotion.py x2j7kha > ../../streams/Euronews_Greece.m3u8
-            python3 twitch.py eurotvgr > ../../streams/EuroTV.m3u8
-            python3 twitch.py hotbeatstv > ../../streams/hotbeatstv.m3u8
-            python3 twitch.py orestidatv > ../../streams/FlashTV.m3u8
-            python3 twitch.py iviewtvgr > ../../streams/iview_tv.m3u8
-            python3 twitch.py kostv2024 > ../../streams/Kardamena_TV.m3u8
+            python3 twitch.py eurotvgr > ../../streams/Euro_TV.m3u8
+            python3 twitch.py hotbeatstv > ../../streams/Hotbeats_tv.m3u8
+            python3 twitch.py orestidatv > ../../streams/Flash_TV.m3u8
+            python3 twitch.py iviewtvgr > ../../streams/Iview_tv.m3u8
+            python3 twitch.py kostv2024 > ../../streams/Kos_TV.m3u8
             python3 twitch.py lepantotv > ../../streams/LePanto.m3u8
-            python3 twitch.py marontvgr > ../../streams/marontvgr.m3u8
-            python3 twitch.py ontv2023 > ../../streams/On_Tv_Greece.m3u8
-            python3 twitch.py orthodoxiaradio > ../../streams/Orthodoxia_Radio_TV.m3u8          
-            python3 twitch.py pronewstvgr > ../../streams/pronewstvgr.m3u8
+            python3 twitch.py marontvgr > ../../streams/Marontvgr.m3u8
+            python3 twitch.py ontv2023 > ../../streams/On_Tv.m3u8
+            python3 twitch.py orthodoxiaradio > ../../streams/Orthodoxia_TV.m3u8          
+            python3 twitch.py pronewstvgr > ../../streams/Pronews_tv.m3u8
             python3 dailymotion.py k5Hfx6eeaTjBE5zRXcn > ../../streams/Star_Kentrikis_Eladas_Greece.m3u8
-            python3 twitch.py superstarfm > ../../streams/superstar.m3u8
-            python3 twitch.py tvkosmosgr > ../../streams/tvkosmos.m3u8
-            python3 twitch.py rodopitv > ../../streams/TVRodopi.m3u8
+            python3 twitch.py superstarfm > ../../streams/Superstar.m3u8
+            python3 twitch.py tvkosmosgr > ../../streams/kosmos_tv.m3u8
+            python3 twitch.py rodopitv > ../../streams/Rodopi_tv.m3u8
             python3 twitch.py topchannelkozani > ../../streams/Top_Channel.m3u8
-            python3 twitch.py livethess > ../../streams/thessaliatv.m3u8
-            python3 twitch.py tvstarfm > ../../streams/tvstar.m3u8
-            python3 twitch.py verginacy > ../../streams/verginatv_cyprus.m3u8
+            python3 twitch.py livethess > ../../streams/Thessalia_tv.m3u8
+            python3 twitch.py tvstarfm > ../../streams/Star_tv.m3u8
+            python3 twitch.py verginacy > ../../streams/Verginatv_cyprus.m3u8
             python3 twitch.py xtvision > ../../streams/XTV.m3u8
-            python3 twitch.py xylagany_paradosi > ../../streams/xylagany.m3u8
-            python3 twitch.py zeystv0 > ../../streams/zeystv.m3u8
-            python3 twitch.py failarmy > ../../streams/failarmy.m3u8
-            python3 twitch.py animals_nature > ../../streams/animals_nature.m3u8
+            python3 twitch.py xylagany_paradosi > ../../streams/Xylagany.m3u8
+            python3 twitch.py zeystv0 > ../../streams/Zeys_tv.m3u8
+            python3 twitch.py failarmy > ../../streams/Failarmy.m3u8
+            python3 twitch.py animals_nature > ../../streams/Animals_nature.m3u8
 
       - name: git add
         run: |
