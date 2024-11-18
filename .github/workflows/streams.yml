@@ -25,7 +25,11 @@ jobs:
         run: |
             pwd
             cd ./core/platforms/
+<<<<<<< HEAD
             python3 twitch.py TESTv > ../../streams/TEST.m3u8
+=======
+            python3 twitch.py testtv > ../../streams/test.m3u8
+>>>>>>> fa38480dc9328251fa6aeae47fa1b7e69192d292
       - name: git add
         run: |
           git add -A
