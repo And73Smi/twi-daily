@@ -61,7 +61,6 @@ jobs:
             python3 twitch.py xtvision > ../../streams/XTV.m3u8
             python3 twitch.py xylagany_paradosi > ../../streams/Xylagany.m3u8
             python3 twitch.py zeystv0 > ../../streams/Zeys_TV.m3u8
-            python3 https://www.megatv.com/live/.py https://www.megatv.com/live/ > ../../streams/mega.m3u8
 
       - name: git add
         run: |
